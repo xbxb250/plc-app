@@ -1,0 +1,111 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "@/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "PLC瀛﹀爞",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tutorial/index",
+      "style": {
+        "navigationBarTitleText": "鏁欑▼涓績",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tutorial-detail/index",
+      "style": {
+        "navigationBarTitleText": "鏁欑▼璇︽儏",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/quiz/index",
+      "style": {
+        "navigationBarTitleText": "缁冧範涓績",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/quiz-do/index",
+      "style": {
+        "navigationBarTitleText": "绛旈",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/wrong-book/index",
+      "style": {
+        "navigationBarTitleText": "閿欓鏈?,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/favorites/index",
+      "style": {
+        "navigationBarTitleText": "鎴戠殑鏀惰棌",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "鎴戠殑",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "鐧诲綍",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "PLC瀛﹀爞",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F6F8"
+  },
+  "tabBar": {
+    "color": "#9CA3AF",
+    "selectedColor": "#2563EB",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "棣栭〉",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/tutorial/index",
+        "text": "鏁欑▼",
+        "iconPath": "static/icons/book.png",
+        "selectedIconPath": "static/icons/book-active.png"
+      },
+      {
+        "pagePath": "pages/quiz/index",
+        "text": "缁冧範",
+        "iconPath": "static/icons/quiz.png",
+        "selectedIconPath": "static/icons/quiz-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "鎴戠殑",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-active.png"
+      }
+    ]
+  }
+}

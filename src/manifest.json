@@ -1,0 +1,49 @@
+{
+  "name": "PLC瀛﹀爞",
+  "appid": "__UNI__PLC_APP",
+  "description": "浠庨浂寮€濮嬪PLC缂栫▼ - 瑗块棬瀛惵蜂笁鑿甭锋濮嗛緳路缃楀厠闊﹀皵",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {},
+    "distribute": {
+      "android": {
+        "permissions": []
+      },
+      "ios": {},
+      "sdkConfigs": {}
+    }
+  },
+  "mp-weixin": {
+    "appid": "your-wechat-appid",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "鐢ㄤ簬鎻愪緵鏇寸簿鍑嗙殑瀛︿範鎺ㄨ崘"
+      }
+    }
+  },
+  "h5": {
+    "title": "PLC瀛﹀爞",
+    "domain": "",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}
